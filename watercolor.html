@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water color</title>
+</head>
+    <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .mainbox{
+        height: 1000px;
+        width: auto;
+    }
+
+h1{
+    margin-top: 50px;
+    font-size: 50px;
+    margin-left:250px;
+}
+
+    .colorbox{
+        height: 300px;
+        width: 800px;
+        margin-top: 200px;
+        margin-left: 350px;
+        background-color: rgb(159, 203, 221);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    
+    }
+    input[type=button]
+    {
+        height: 110px;
+        width: 110px;
+        border-radius: 50%;
+        box-shadow: 10px 10px 10px grey;
+        margin:10px;
+        border: none;
+    }
+    input[type=button]:hover
+    {
+        height: 130px;
+        width: 130px;
+        
+    }
+
+    .Red{
+        background-color: red;
+    }
+    .orange{
+        background-color: orange;
+    }
+    .Yellow{
+        background-color: yellow;
+    }
+    .green{
+        background-color: green;
+    }
+    .blue{
+        background-color: blue;
+    }
+    .pink{
+        background-color: pink;
+    }
+    .chocolate{
+        background-color: chocolate;
+    }
+    .navy{
+        background-color: navy;
+    }
+    .violet{
+        background-color: violet;
+    }
+    .grey{
+        background-color: grey;
+    }
+    .aqua{
+        background-color: aqua;
+    }
+    .tan{
+        background-color: tan;
+    }
+    </style>
+    <script>
+        function a1()
+        {
+            document.bgColor="Red"
+        }
+        function a2()
+        {
+            document.bgColor="orange"
+        }
+        function a3()
+        {
+            document.bgColor="yellow"
+        }
+        function a4()
+        {
+            document.bgColor="green"
+        }
+        function a5()
+        {
+            document.bgColor="blue"
+        }
+        function a6()
+        {
+            document.bgColor="pink"
+        }
+        function a7()
+        {
+            document.bgColor="chocolate"
+        }
+        function a8()
+        {
+            document.bgColor="navy"
+        }
+        function a9()
+        {
+            document.bgColor="violet"
+        }
+        function a10()
+        {
+            document.bgColor="Grey"
+        }
+        function a11()
+        {
+            document.bgColor="aqua"
+        }
+        function a12()
+        {
+            document.bgColor="tan"
+        }
+    </script>
+<body>
+<div class="mainbox">
+    <h1>Pick any color and change the Background color</h1>
+<div class="colorbox">
+    
+    <table>
+        <tr>
+            <td><input type="button" class="Red" onclick="a1()"></td>
+            <td><input type="button" class="orange" onclick="a2()"></td>
+            <td><input type="button" class="Yellow" onclick="a3()"></td>
+            <td><input type="button" class="green" onclick="a4()"></td>
+            <td><input type="button" class="blue" onclick="a5()"></td>
+            <td><input type="button" class="pink" onclick="a6()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" class="chocolate" onclick="a7()"></td>
+            <td><input type="button" class="navy" onclick="a8()"></td>
+            <td><input type="button" class="violet" onclick="a9()"></td>
+            <td><input type="button" class="grey" onclick="a10()"></td>
+            <td><input type="button" class="aqua" onclick="a11()"></td>
+            <td><input type="button" class="tan" onclick="a12()"></td>
+        </tr>
+    </table>
+</div>
+</div>
+</body>
+</html>
